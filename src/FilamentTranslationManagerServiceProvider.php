@@ -9,7 +9,7 @@ use Statikbe\FilamentTranslationManager\Http\Livewire\TranslationEditForm;
 use Statikbe\FilamentTranslationManager\Pages\TranslationManagerPage;
 use Statikbe\FilamentTranslationManager\Widgets\TranslationStatusWidget;
 
-class FilamentTranslationManagerServiceProvider extends PluginServiceProvider
+class FilamentTranslationManagerServiceProvider extends Plugin
 {
     public function configurePackage(Package $package): void
     {
