@@ -8,9 +8,9 @@ use Spatie\LaravelPackageTools\Package;
 use Statikbe\FilamentTranslationManager\Http\Livewire\TranslationEditForm;
 use Statikbe\FilamentTranslationManager\Pages\TranslationManagerPage;
 use Statikbe\FilamentTranslationManager\Widgets\TranslationStatusWidget;
-use Spatie\LaravelPackageTools\PackageServiceProvider;
 
-class FilamentTranslationManagerServiceProvider extends PackageServiceProvider
+
+class FilamentTranslationManagerServiceProvider 
 {
     public function configurePackage(Package $package): void
     {
